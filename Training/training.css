@@ -1,0 +1,173 @@
+
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	padding: 0;
+	height: 85%;
+	width: 95%;
+	overflow-x: hidden;
+	min-width: 700px;
+	
+	/*
+	background: -webkit-linear-gradient(left, #80b4dd, #074f97, #074f97, #074f97, #074f97, #80b4dd); 
+	background: -o-linear-gradient(left, #80b4dd, #074f97, #074f97, #074f97, #074f97, #80b4dd); 
+	background: -moz-linear-gradient(right, #80b4dd,  #074f97, #074f97, #074f97,#074f97, #80b4dd); 
+	background: linear-gradient(to right, #80b4dd,  #074f97, #074f97, #074f97, #074f97, #80b4dd); 
+	*/
+	
+	background-image: -webkit-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+	background-image: -moz-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+	background-image: -o-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+	background-image: radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+}
+
+h2{
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+ #topbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	background-color: #1c5ba8;
+	color: #ffffff;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+}
+
+.topButton{
+	border-radius: 10px; 
+	color: #ffffff; 
+	text-align: center; 
+	height: 35px; 
+	line-height: 35px;
+	padding: 10px;
+	margin-right: 5px;
+	height: 100%;
+
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f);
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f);
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+}
+
+#quote{
+	margin-right: 20%;
+}
+
+#logo{
+	margin-left: 20%;
+	height: 35px;
+}
+
+#titlebar{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	color: #e51d25;
+	width: 100%;
+	height: 35px;
+}
+
+#hero{
+  background-image: url('http://intranet.ezrac.com/training/resources/hero.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  min-height: 99vh;
+  width: 100vw;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#modules{
+	margin-top: 120px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+
+.category{
+	width: 100%;
+	max-height: 60px;
+	background-color: #074f97;
+	margin: 10px;
+	float: left;
+	
+	overflow: hidden;
+	
+	display: inline-block;
+	
+	float: left;
+	color: #fff;
+	background-color: #1c5ba8;
+	background-image: -webkit-gradient(radial,50%,0,50%,100,color-stop(50%,#4f7baf),color-stop(100%,#1c5ba8));
+	background-image: -webkit-radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+	background-image: -moz-radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+	background-image: -o-radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+	background-image: radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+
+	box-shadow: 0 0 0 5px #fff;
+	border-radius: 4px;
+	
+	/* Set our transitions up. */
+	-webkit-transition: max-height 0.5s;
+	-moz-transition: max-height 0.5s;
+	transition: max-height 0.5s;
+	
+}
+
+.active {
+	max-height: 1000px;
+}
+
+.menuIcon{
+	border: 2px solid #ffffff; 
+	float: left; 
+	margin-left: 10px;
+	background-color: #1c5ba8;
+	border-radius: 20%;
+	
+}
+
+.doc{
+	width:100%;
+	height: 40px;
+	line-height: 40px; /*For centring text*/
+	color: #ffffff;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	vertical-align: center;
+	font-weight: bold;
+	
+	/*gradient*/
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* Standard syntax */
+}
+
+a:hover, a:visited, a:link, a:active{
+	color: #ffffff;
+	text-decoration: none;
+}

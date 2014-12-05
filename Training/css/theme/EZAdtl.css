@@ -1,0 +1,158 @@
+ a:hover, a:visited, a:link, a:active{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 15px;
+	width: 100%;
+}
+
+ .button{
+	height: 40px;
+	width: 100px;;
+	vertical-align: center;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	font-weight: bold;
+	clear: both;
+	padding: 20px;
+	
+	/*gradient*/
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* Standard syntax */
+}
+
+ 
+ #topbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	background-color: #1c5ba8;
+	color: #ffffff;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+}
+
+.topButton{
+	border-radius: 10px; 
+	color: #ffffff; 
+	background-color: #ff0000; 
+	text-align: center; 
+	height: 35px; 
+	line-height: 35px;
+	padding: 0;
+	margin-right: 5px;
+	
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f);
+
+}
+
+#quote{
+	margin-right: 20%;
+}
+
+#logo{
+	margin-left: 5%;
+	height: 35px;
+}
+
+#titlebar{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	color: #e51d25;
+	width: 100%;
+	height: 35px;
+}
+
+.playButton{
+	border-radius: 50%;
+	display: default;
+}
+
+.playButtonHide{
+	display: none;
+}
+
+.imageHide{
+	display:none;
+}
+
+.imageShow{
+	display: default;
+}
+
+.floatRight{
+width: 45%;
+float: right;
+}
+
+.floatLeft{
+	width: 45%;
+	float: left;
+}
+ 
+ 
+body {
+  background: #074f97;
+	
+  background-image: -webkit-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+  background-image: -moz-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+  background-image: -o-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+  background-image: radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+
+  background-color: #2b2b2b; }
+  
+
+/*Reveal Slides*/
+section{
+color: #fff;
+/*
+background-color: #1c5ba8;
+background-image: -webkit-gradient(radial,50%,0,50%,100,color-stop(50%,#4f7baf),color-stop(100%,#1c5ba8));
+background-image: -webkit-radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+background-image: -moz-radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+background-image: -o-radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+background-image: radial-gradient(center,ellipse cover,#4f7baf 50%,#1c5ba8 100%);
+
+box-shadow: 0 0 0 5px #fff;
+border-radius: 4px;
+*/
+}
+
+/*for readability */
+.reveal h4{
+	color: #ffffff;
+}
+  
+  
+ /*For Reveal play controls*/ 
+  reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #ff0000; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #ff0000; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #ff0000; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #ff0000; }

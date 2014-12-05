@@ -1,0 +1,188 @@
+/* 
+EZ Blue = #074f97;
+Accent blue = #80b4dd;
+EZ Red = #e51d25;
+Accent Red = #cb302f;
+*/
+
+html{
+	height: 100%;
+}
+
+
+body{
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	
+	background-image: -webkit-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+	background-image: -moz-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+	background-image: -o-radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+	background-image: radial-gradient(center top,ellipse cover,#3074ba 50%,#a3d0ec 100%);
+}
+
+
+li{
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+ #topbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	background-color: #1c5ba8;
+	color: #ffffff;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+}
+
+#quote{
+	margin-right: 20%;
+}
+
+#logo{
+	margin-left: 20%;
+	height: 35px;
+}
+
+#titlebar{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	right: 0;
+	background-color: #ffffff;
+	color: #e51d25;
+	width: 100%;
+	height: 35px;
+}
+
+.topButton{
+	border-radius: 10px; 
+	color: #ffffff; 
+	background-color: #ff0000; 
+	text-align: center; 
+	height: 35px; 
+	line-height: 35px;
+	padding: 10px;
+	margin-right: 5px;
+	
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); 
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f);
+
+}
+
+form{
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+	top: 75px;
+    width: 700px;
+}
+
+.wrapper{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 75px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.question{
+	background-color: #ffffff;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	padding: 10px;
+	width: 700px;
+	
+}
+
+.userInfo{
+	width: 700px;
+	margin: auto;
+	background-color: #ffffff;
+	float: left;
+	clear: both;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 700px;
+	
+}
+
+.submitBtn{
+	width: 700px;
+	margin: auto;
+	/*float: left;*/
+	clear: both;
+	margin-right: 15px;
+	margin-top: 15px;
+	padding: 10px;
+	width: 700px;
+	
+}
+
+h1{
+	width: 700px;
+	text-align: center;
+	clear: both;
+	font-weight: bold;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	
+	/*gradient*/
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* Standard syntax */
+	
+}
+
+.title{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button{
+	height: 40px;
+	width: 700px;
+	line-height: 40px; /*For centring text*/
+	vertical-align: center;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 10px;
+	margin-right: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	
+	clear: both;
+	margin-top: 15px;
+	width: 700px;
+	
+	/*gradient*/
+	background: -webkit-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e51d25, #e51d25, #e51d25, #e51d25, #cb302f, #cb302f, #cb302f, #cb302f); /* Standard syntax */
+}
+
+a:hover, a:visited, a:link, a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
